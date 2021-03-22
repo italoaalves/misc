@@ -38,7 +38,7 @@ submitButton.addEventListener("click", (event) => {
                 <p>Created at: ${repo.created_at}</p>
                 <p>Updated at: ${repo.updated_at}</p>
             </div>
-            <a href="${repo.url}" target="_blank">Acessar repositório</a>
+            <a href="${repo.html_url}" target="_blank">Acessar repositório</a>
         </section>
         `);
 
