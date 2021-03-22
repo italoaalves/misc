@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+
+<body>
+    <header>
+        <h1>Página de cadastro</h1>
+    </header>
+    <main>
+        <form action="">
+            <div class="form__header">
+                <h2>Formulário de cadastro</h2>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input id="name" type="text">
+            </div>
+
+            <div class="form-group">
+                <label>Pessoa:</label>
+                <input id="person-cpf" name="person" type="radio">Física</input>
+                <input id="person-cnpj" name="person" type="radio">Jurídica</input>
+            </div>
+
+            <div id="cpf-group" class="form-group">
+                <label for="cpf">CPF</label>
+                <input id="cpf" type="text">
+            </div>
+
+            <div id="cnpj-group" class="form-group">
+                <label for="cnpj">CNPJ</label>
+                <input id="cnpj" type="text">
+            </div>
+
+            <div id="birthday-group" class="form-group">
+                <label for="birthday">Data de nascimento</label>
+                <input id="birthday" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Endereço</label>
+                <input id="adrress" type="text">
+            </div>
+
+            <div id="cep-group" class="form-group">
+                <label for="cep">CEP</label>
+                <input id="cep" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input id="phone" type="text">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" type="text">
+            </div>
+            <div class="form-group">
+                <button id="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="sign_up.js"></script>
+</body>
+
+</html>
